@@ -1,6 +1,6 @@
 #DL_Mini_Project.py 
 import streamlit as st
-import tensorflow as tf
+import tflite as tf
 import streamlit as st
 import cv2
 from PIL import Image, ImageOps
