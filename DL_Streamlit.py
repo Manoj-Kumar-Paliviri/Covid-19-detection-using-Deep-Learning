@@ -30,11 +30,11 @@ def set_bg_hack(main_bg):
             """,
             unsafe_allow_html=True
         )
-set_bg_hack('M:/vs code/py_programs/MP-2/background.jpg')
+set_bg_hack('background.jpg')
 
 def load_model():
-  model1=tf.keras.models.load_model('M:/vs code/py_programs/MP-2/vgg16')
-  model2=tf.keras.models.load_model('M:/vs code/py_programs/MP-2/resnet50')
+  model1=tf.keras.models.load_model('vgg16')
+  model2=tf.keras.models.load_model('resnet50')
   return model1,model2
 with st.spinner('Models are being loaded..'):
   model1,model2=load_model()
